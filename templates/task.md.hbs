@@ -1,0 +1,8 @@
++++
+id = {{ id }}
+created_at = "{{ created_at }}"
+tags = [ {{#each tags}}{{#if @index}}, {{/if}}"{{@index}} {{this}}"{{/each}} ]
++++
+
+# {{#if title}}{{title}}{{else}}Title{{/if}}
+

@@ -1,0 +1,13 @@
+[package]
+name = "todo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = {version = "1.40.0", features = ["full"]}
+clap = {version = "4.5.17", features = ["derive"]}
+toml = {version = "0.8.19"}
+anyhow = "1.0.89"
+chrono = {version = "0.4.38", features = ["serde"]}
+serde = { version = "1.0.210", features = ["derive"] }
+handlebars = {version = "6.1.0", features = ["dir_source"]}
